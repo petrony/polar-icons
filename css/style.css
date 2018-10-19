@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot");
+  src: url("../fonts/icomoon.eot#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf") format("truetype"), url("../fonts/icomoon.woff") format("woff"), url("../fonts/icomoon.svg#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.share-icons {
+  padding: 10px 15px;
+  max-width: 272px;
+  margin: 0 auto 10px; }
+  .share-icons-white {
+    background: #000;
+    border-radius: 35px; }
+  .share-icons-dark {
+    background: #000;
+    border-radius: 35px; }
+
+.icon-polar {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  position: relative;
+  background: #333;
+  border: 1px solid #333;
+  color: #fff;
+  border-radius: 50%;
+  margin-right: 10px; }
+  .icon-polar:last-child {
+    margin-right: 0; }
+  .icon-polar span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 18px; }
+  .icon-polar:hover {
+    opacity: 0.2; }
+  .icon-polar-white {
+    border: 1px solid #fff;
+    background: #fff;
+    opacity: 0.2; }
+    .icon-polar-white span {
+      color: #333; }
+    .icon-polar-white:hover {
+      opacity: 1; }
+  .icon-polar-dark {
+    background: #fff;
+    border: 1px solid #fff; }
+    .icon-polar-dark span {
+      color: #333; }
+    .icon-polar-dark:hover {
+      opacity: 1; }
+
+[class^="polar-icon-"], [class*=" polar-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.polar-icon-zen:before {
+  content: "\e900"; }
+
+.polar-icon-instagram:before {
+  content: "\e901"; }
+
+.polar-icon-vk:before {
+  content: "\e902"; }
+
+.polar-icon-odnoklassniki:before {
+  content: "\e903"; }
+
+.polar-icon-facebook1:before {
+  content: "\e905"; }
+
+.polar-icon-facebook-f:before {
+  content: "\e905"; }
+
+.polar-icon-youtube-square1:before {
+  content: "\e906"; }

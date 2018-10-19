@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title Document
+    link(rel="stylesheet", href="../css/style.css")
+  body
+    - var icons = ["youtube-square1","facebook1","vk","odnoklassniki","instagram","zen"]
+
+    .share-icons
+      each item,i in icons
+        a.icon-polar(href="#")
+          span(class="polar-icon-"+item)
+
+    .share-icons.share-icons-white
+      each item,i in icons
+        a.icon-polar.icon-polar-white(href="#")
+          span(class="polar-icon-"+item)
+
+    .share-icons.share-icons-dark
+      each item,i in icons
+        a.icon-polar.icon-polar-dark(href="#")
+          span(class="polar-icon-"+item)
