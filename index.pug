@@ -7,16 +7,11 @@ html(lang="en")
     title Document
     link(rel="stylesheet", href="../css/style.css")
   body
-    - var icons = ["youtube-square1","facebook1","vk","odnoklassniki","instagram","zen"]
+    - var icons = ["youtube-play","facebook-f","vk","odnoklassniki","instagram","instagram-i","zen"]
 
     .share-icons
       each item,i in icons
         a.icon-polar(href="#")
-          span(class="polar-icon-"+item)
-
-    .share-icons.share-icons-white
-      each item,i in icons
-        a.icon-polar.icon-polar-white(href="#")
           span(class="polar-icon-"+item)
 
     .share-icons.share-icons-dark

@@ -11,15 +11,13 @@
 
 .share-icons {
   padding: 10px 15px;
-  max-width: 272px;
+  max-width: 322px;
   margin: 0 auto 10px;
-	&-white {
-  	background: #000;
-    border-radius: 35px;
-	}
   &-dark {
+    background: #000;
+	}
+  &-white {
   	background: #000;
-    border-radius: 35px;
 	}
 }
 
@@ -31,6 +29,7 @@
   background: #333;
   border: 1px solid #333;
   color: #fff;
+  border-radius: 50%;
   border-radius: 50%;
   margin-right: 10px;
   &:last-child {
@@ -83,10 +82,16 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.polar-icon-instagram:before {
+  content: "\e904";
+}
 .polar-icon-zen:before {
   content: "\e900";
 }
-.polar-icon-instagram:before {
+.polar-icon-youtube-play:before {
+  content: "\e906";
+}
+.polar-icon-instagram-i:before {
   content: "\e901";
 }
 .polar-icon-vk:before {
@@ -95,12 +100,7 @@
 .polar-icon-odnoklassniki:before {
   content: "\e903";
 }
-.polar-icon-facebook1:before {
-  content: "\e905";
-}
 .polar-icon-facebook-f:before {
   content: "\e905";
 }
-.polar-icon-youtube-square1:before {
-  content: "\e906";
-}
+
