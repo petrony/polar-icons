@@ -5,15 +5,6 @@
   font-weight: normal;
   font-style: normal; }
 
-.share-icons {
-  padding: 10px 15px;
-  max-width: 322px;
-  margin: 0 auto 10px; }
-  .share-icons-dark {
-    background: #000; }
-  .share-icons-white {
-    background: #000; }
-
 .icon-polar {
   display: inline-block;
   width: 35px;
@@ -35,23 +26,25 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     font-size: 18px; }
+  .icon-polar-middle {
+    width: 28px;
+    height: 28px; }
+    .icon-polar-middle span {
+      font-size: 14px; }
+  .icon-polar-small {
+    width: 20px;
+    height: 20px; }
+    .icon-polar-small span {
+      font-size: 12px; }
   .icon-polar:hover {
     opacity: 0.2; }
-  .icon-polar-white {
-    border: 1px solid #fff;
-    background: #fff;
-    opacity: 0.2; }
-    .icon-polar-white span {
-      color: #333; }
-    .icon-polar-white:hover {
-      opacity: 1; }
-  .icon-polar-dark {
-    background: #fff;
-    border: 1px solid #fff; }
-    .icon-polar-dark span {
-      color: #333; }
-    .icon-polar-dark:hover {
-      opacity: 1; }
+  .icon-polar-invers {
+    width: auto;
+    height: auto;
+    border-color: #fff;
+    color: #333;
+    background: none;
+    margin: 0 10px; }
 
 [class^="polar-icon-"], [class*=" polar-icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
@@ -66,16 +59,13 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-.polar-icon-instagram:before {
-  content: "\e904"; }
-
 .polar-icon-zen:before {
   content: "\e900"; }
 
-.polar-icon-youtube-play:before {
+.polar-icon-youtube-square1:before {
   content: "\e906"; }
 
-.polar-icon-instagram-i:before {
+.polar-icon-instagram:before {
   content: "\e901"; }
 
 .polar-icon-vk:before {
@@ -84,5 +74,5 @@
 .polar-icon-odnoklassniki:before {
   content: "\e903"; }
 
-.polar-icon-facebook-f:before {
+.polar-icon-facebook1:before {
   content: "\e905"; }

@@ -8,19 +8,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
-.share-icons {
-  padding: 10px 15px;
-  max-width: 322px;
-  margin: 0 auto 10px;
-  &-dark {
-    background: #000;
-	}
-  &-white {
-  	background: #000;
-	}
-}
-
 .icon-polar {
   display: inline-block;
   width: 35px;
@@ -42,30 +29,31 @@
     transform: translate(-50%,-50%);
     font-size: 18px;
   }
+  &-middle {
+    width: 28px;
+    height: 28px;
+    span {
+      font-size: 14px;
+    }
+  }
+  &-small {
+    width: 20px;
+    height: 20px;
+    span {
+      font-size: 12px;
+    }
+  }
   &:hover {
     opacity: 0.2;
   }
-	&-white {
-    border: 1px solid #fff;
-		background: #fff;
-		opacity: 0.2;
-		span {
-			color: #333;
-		}
-		&:hover {
-			opacity: 1;
-		}
-	}
-  &-dark {
-    background: #fff;
-    border: 1px solid #fff;
-		span {
-			color: #333;
-		}
-		&:hover {
-			opacity: 1;
-		}
-	}
+  &-invers {
+    width: auto;
+    height: auto;
+    border-color: #fff;
+    color: #333;
+    background: none;
+    margin: 0 10px;
+  }
 }
 
 [class^="polar-icon-"], [class*=" polar-icon-"] {
@@ -82,16 +70,13 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.polar-icon-instagram:before {
-  content: "\e904";
-}
 .polar-icon-zen:before {
   content: "\e900";
 }
-.polar-icon-youtube-play:before {
+.polar-icon-youtube-square1:before {
   content: "\e906";
 }
-.polar-icon-instagram-i:before {
+.polar-icon-instagram:before {
   content: "\e901";
 }
 .polar-icon-vk:before {
@@ -100,7 +85,7 @@
 .polar-icon-odnoklassniki:before {
   content: "\e903";
 }
-.polar-icon-facebook-f:before {
+.polar-icon-facebook1:before {
   content: "\e905";
 }
 

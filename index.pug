@@ -5,16 +5,36 @@ html(lang="en")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     meta(http-equiv="X-UA-Compatible", content="ie=edge")
     title Document
-    link(rel="stylesheet", href="../css/style.css")
+    link(rel="stylesheet", href="../css/share-icons.css")
   body
-    - var icons = ["youtube-play","facebook-f","vk","odnoklassniki","instagram","instagram-i","zen"]
+    - var icons = ["youtube-square1","facebook1","vk","odnoklassniki","instagram","zen"]
 
     .share-icons
       each item,i in icons
         a.icon-polar(href="#")
           span(class="polar-icon-"+item)
 
-    .share-icons.share-icons-dark
+    .share-icons
       each item,i in icons
-        a.icon-polar.icon-polar-dark(href="#")
+        a.icon-polar.icon-polar-middle(href="#")
+          span(class="polar-icon-"+item)
+
+    .share-icons
+      each item,i in icons
+        a.icon-polar.icon-polar-small(href="#")
+          span(class="polar-icon-"+item)
+
+    .share-icons
+      each item,i in icons
+        a.icon-polar.icon-polar-invers(href="#")
+          span(class="polar-icon-"+item)
+
+    .share-icons
+      each item,i in icons
+        a.icon-polar.icon-polar-middle.icon-polar-invers(href="#")
+          span(class="polar-icon-"+item)
+
+    .share-icons
+      each item,i in icons
+        a.icon-polar.icon-polar-small.icon-polar-invers(href="#")
           span(class="polar-icon-"+item)
