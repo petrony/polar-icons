@@ -46,6 +46,19 @@
   &:hover {
     opacity: 0.2;
   }
+  &-white{
+    background: none;
+    width: 12px;
+    height: 12px;
+    margin-left: 10px;
+    border: none;
+    &:hover {
+      opacity: 1;
+      span {
+        opacity: 0.4;
+      }
+    }
+  }
   &-invers {
     width: auto;
     height: auto;
@@ -53,6 +66,20 @@
     color: #333;
     background: none;
     margin: 0 10px;
+  }
+  &-humid {
+    border-radius: 1px;
+    background: #888888;
+    border: none;
+    transition: 0.3s;
+    &:hover {
+      background: #1b3e75;
+      opacity: 1;
+      span::before {
+        display: inline-block;
+        transform: scale(1.1);
+      }
+    }
   }
 }
 
